@@ -1,0 +1,29 @@
+{
+  "name": "typescript-api",
+  "version": "1.0.0",
+  "description": "API Desenvolvida utilizando TS, Node, ES6, Postgres e Sequelize",
+  "main": "server/server.ts",
+  "scripts": {
+    "start": "./node_modules/.bin/ts-node ./server/server.ts",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/rafaellavm/TypescriptAPI.git"
+  },
+  "keywords": [
+    "API",
+    "typescript",
+    "node",
+    "ES6"
+  ],
+  "author": "Rafaela Marraschi",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/rafaellavm/TypescriptAPI/issues"
+  },
+  "homepage": "https://github.com/rafaellavm/TypescriptAPI#readme",
+  "devDependencies": {
+    "ts-node": "^4.1.0"
+  }
+}
