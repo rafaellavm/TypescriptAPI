@@ -1,6 +1,23 @@
 {
     "compilerOptions": {
-        "target": "es5",
-        "module": "commonjs"
-    }
+        "target": "es5", //versão do javascript
+        "module": "commonjs",
+        "outDir": "build", //diretório de saída, pra onde vai o código q vai ser gerado
+        "typeRoots": [          //raiz dos nossos tipos
+            "../node_modules/@types"
+        ],
+        "types": [ //
+            "node"
+        ]
+    },
+    "include": [//pra ele incluir todos os arquivos q o compilador vai trabalhar
+    "server/**/*.ts",
+    "server/*.ts"
+    ],
+    "exclude":[ //o que não vai precisar passar pelo compilador
+       "node_modules" 
+    ], 
+    
+    "buildOnSave": true, 
+    "compileOnSave": true //cada vez que salvar o arquivo ele compila e dá build
 }
